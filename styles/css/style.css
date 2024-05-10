@@ -1,0 +1,128 @@
+@import url(../../assets/fonts/IBM_Plex_Sans/IBMPlexSans.css);
+body {
+  background-color: rgb(1, 1, 13);
+  font-family: "IBMPlexSans-medium";
+  color: white;
+}
+
+.wrapper {
+  height: 68px;
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.header__navigation-menu {
+  display: flex;
+  gap: 25px;
+}
+
+.header__navigation-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+.header__actions {
+  display: flex;
+  gap: 8px;
+}
+
+.button {
+  text-transform: uppercase;
+  line-height: 20px;
+  height: 42px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 4px 0px #57E1FF;
+}
+
+.button--sign-in {
+  width: 86px;
+  border: 1.5px solid #57E1FF;
+  background-color: rgba(87, 225, 255, 0.3);
+  color: #57E1FF;
+}
+
+.button--registration {
+  width: 146px;
+  border: 1px solid #57E1FF;
+  background-color: #57E1FF;
+}
+
+.introduction {
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+  padding-top: 160px;
+  gap: 24px;
+}
+
+.introduction__title-img {
+  width: 469px;
+  height: 209px;
+}
+
+.introduction__title {
+  width: 630px;
+  height: 384px;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 72px;
+  text-transform: uppercase;
+  font-family: "IBMPlexSans-bold";
+}
+
+.introduction__title-input {
+  position: relative;
+}
+
+.introduction__title-email {
+  height: 60px;
+  width: 500px;
+  background-color: #201A4F;
+  border-radius: 4px;
+  border: 0;
+  letter-spacing: -1%;
+  color: white;
+  opacity: 34px;
+  padding-left: 16px;
+}
+
+.introduction__button {
+  width: 109px;
+  height: 52px;
+  border-radius: 4px;
+  background-color: #57E1FF;
+  border: 1px solid #57E1FF;
+  box-shadow: 0px 0px 4px 0px #57E1FF;
+  font-size: 16px;
+  line-height: 20px;
+  position: absolute;
+  top: 5px;
+  left: 405px;
+}
+
+.introduction__subtitle {
+  color: rgb(231, 247, 248);
+  opacity: 80%;
+  font-size: 16px;
+  font-family: "IBMPlexSans-regular", sans-serif;
+  line-height: 20px;
+}
+
+.text {
+  font-size: 14px;
+  color: white;
+  opacity: 30%;
+  font-family: "IBMPlexSans-regular", sans-serif;
+  line-height: 20px;
+}/*# sourceMappingURL=style.css.map */
